@@ -1,16 +1,16 @@
 @font-face{
     font-family: Cirka-Regular;
-    src: url (fonts/Cirka-Regular.otf)
+    src: url (/Cirka-Regular.otf)
 }
 
 @font-face{
     font-family: Cirka-Bold;
-    src: url (fonts/Cirka-Bold.otf)
+    src: url (/Cirka-Bold.otf)
 } 
 
 @font-face{
     font-family: Neue-Montreal;
-    src: url (fonts/NeueMontreal-Regular.otf)
+    src: url (/NeueMontreal-Regular.otf)
 } 
     
 
@@ -100,6 +100,9 @@ body {
     font-size: 30px;
     display: flex;
     align-items: center;
+     border-bottom: 4px;
+    border-bottom-color: #ff00ef;
+    border-bottom-style: solid;
 }
 
 .menu-class:link,
