@@ -139,7 +139,7 @@ body {
     border-bottom: 4px;
     border-bottom-color: #ff00ef;
     border-bottom-style: solid;
-    margin-left: 6%;
+    
     font-size: 20px;
     line-height: 50px;
     background-color: black;
@@ -257,7 +257,7 @@ p1 {
     
 #logo {
 
-    font-size: 43px;
+    font-size: 39px;
     padding-bottom: 40px;
     padding-top: 40px;
      padding-left: 0px;
@@ -300,6 +300,7 @@ p1 {
     display: flex;
     flex-direction: column;
     align-content: center;
+    height: auto;
 }
 
  p1 {
@@ -320,7 +321,7 @@ p1 {
     }
     
 .col8{
-    
+     height: auto;
     font-size: 21px;
 
 }
