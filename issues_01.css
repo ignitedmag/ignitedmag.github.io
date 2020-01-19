@@ -1,22 +1,31 @@
-@font-face{
-    font-family: Cirka-Regular;
-    src: url (/Cirka-Regular.otf)
+@font-face {
+    font-family: 'cirkabold';
+    src: url('../cirka-bold-webfont.woff2') format('woff2'),
+         url('../cirka-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
-@font-face{
-    font-family: Cirka-Bold;
-    src: url (/Cirka-Bold.otf)
-} 
 
-@font-face{
-    font-family: Neue-Montreal;
-    src: url (/NeueMontreal-Regular.otf)
-} 
+@font-face {
+    font-family: 'cirkalight';
+    src: url('../cirka-light-webfont.woff2') format('woff2'),
+         url('../cirka-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
-@font-face{
-    font-family: Cirka-Light;
-    src: url (/Cirka-Light.otf)
-} 
+}
+
+
+@font-face {
+    font-family: 'cirkaregular';
+    src: url('../cirka-regular-webfont.woff2') format('woff2'),
+         url('../cirka-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
     
 
 body {
@@ -53,13 +62,10 @@ body {
     writing-mode: vertical-rl; 
     box-sizing: border-box;
     width: 100%;
-    font-size: 65px;
+    font-size: 62px;
     padding-bottom: 30px;
     padding-top: 30px;
-    font-family: Cirka-Bold;
-    border-bottom: 4px;
-    border-bottom-color: #ff00ef;
-    border-bottom-style: solid;
+    font-family: cirkabold;
     display: flex;
     align-items: center;
     padding-left: 5px;
@@ -86,12 +92,10 @@ body {
     box-sizing: border-box;
     width: 100%;
     writing-mode: vertical-rl; 
-    padding-top: 65px;
-    padding-bottom: 65px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     font-size: 30px;
-    border-bottom: 4px;
-    border-bottom-color: #ff00ef;
-    border-bottom-style: solid;
+   
     display: flex;
     align-items: center;
 }
@@ -100,8 +104,8 @@ body {
     writing-mode: vertical-rl;  
     box-sizing: border-box;
     width: 100%;
-    padding-top: 65px;
-    padding-bottom: 65px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     font-size: 30px;
     display: flex;
     align-items: center;
@@ -150,7 +154,7 @@ body {
   white-space: nowrap;
   overflow: hidden;
   box-sizing: border-box;
-  font-family: Cirka-Regular;
+  font-family: cirkaregular;
 }
 
 .marquee span {
@@ -189,42 +193,56 @@ body {
 }
 
 .col5 a {
-    font-family: Cirka-Regular;
+    font-family: cirkabold;
     text-align: center;
-    color: #ACACAC;
+    color: #FFFFFF;
     font-size: 70px;
 }
 
 .col6{
-    margin-top:3%;
+    margin-top:2%;
     margin-left: 12%;
     margin-right: 12%;
     margin-bottom: 12%;
-    padding: 15px 15px 15px 15px;
+    padding: 25px 25px 25px 25px;
     display: flex;
     flex-direction: column;
     align-content: center;
-    background-color: #ACACAC;
+    background-color: #FFFFFF;
 }
+
+
+.col7{
+    padding: 0px 15px 30px 15px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    
+}
+
+
+.col8{
+    
+    font-family: cirkalight;
+    color: black;
+    font-size: 35px;
+
+}
+
+
 
 
 p1 {
-    font-family: Cirka-Light;
+    font-family: cirkalight;
     text-align: justify-all;
     color: black;
-    font-size: 40px;
+    font-size: 50px;
     align-self: center;
    
 }
 
-p2 {
-    font-family: Cirka-Light;
-    text-align: justify-all;
-    color: black;
-    font-size: 20px;
-    align-self: center;
-   
-}
+
 
 
 
@@ -239,19 +257,24 @@ p2 {
     
 #logo {
 
-    font-size: 48px;
+    font-size: 43px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+     padding-left: 0px;
       
 }
     
 .menu-item {
     font-size: 27px;
+     padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 .menu-item2 {
     font-size: 27px;
-    border-bottom: 4px;
-    border-bottom-color: #ff00ef;
-    border-bottom-style: solid;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    
     
 }
     
@@ -263,15 +286,15 @@ p2 {
     
 .col5 a {
     margin-right: 0%;
-    font-family: Cirka-Regular;
+    font-family: cirkaregular;
     text-align: center;
-    font-size: 36px;
+    font-size: 40px;
 }
     
 .col6{
     margin-top:3%;
-    margin-left: 12%;
-    margin-right: 12%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-bottom: 12%;
     padding: 15px 15px 15px 15px;
     display: flex;
@@ -279,11 +302,30 @@ p2 {
     align-content: center;
 }
 
-.col6 a  {
-    font-family: Cirka-Light;
-    text-align: justify-all;
+ p1 {
     color: black;
-    font-size: 24px;
+    font-size: 30px;
+     margin-top: 20px;
+   
 }
+    
+.col7{
+    padding: 0px 15px 25px 15px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    
+    
+    }
+    
+.col8{
+    
+    font-size: 21px;
 
 }
+    
+
+    
+   
+

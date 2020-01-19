@@ -1,17 +1,31 @@
-@font-face{
-    font-family: Cirka-Regular;
-    src: url (/Cirka-Regular.otf)
+@font-face {
+    font-family: 'cirkabold';
+    src: url('../cirka-bold-webfont.woff2') format('woff2'),
+         url('../cirka-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
-@font-face{
-    font-family: Cirka-Bold;
-    src: url (/Cirka-Bold.otf)
-} 
 
-@font-face{
-    font-family: Neue-Montreal;
-    src: url (/NeueMontreal-Regular.otf)
-} 
+@font-face {
+    font-family: 'cirkalight';
+    src: url('../cirka-light-webfont.woff2') format('woff2'),
+         url('../cirka-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'cirkaregular';
+    src: url('../cirka-regular-webfont.woff2') format('woff2'),
+         url('../cirka-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
     
 
 body {
@@ -48,13 +62,11 @@ body {
     writing-mode: vertical-rl; 
     box-sizing: border-box;
     width: 100%;
-    font-size: 65px;
+    font-size: 62px;
     padding-bottom: 30px;
     padding-top: 30px;
-    font-family: Cirka-Bold;
-    border-bottom: 4px;
-    border-bottom-color: #ff00ef;
-    border-bottom-style: solid;
+    font-family: cirkabold;
+   
     display: flex;
     align-items: center;
     padding-left: 5px;
@@ -81,28 +93,25 @@ body {
     box-sizing: border-box;
     width: 100%;
     writing-mode: vertical-rl; 
-    padding-top: 65px;
-    padding-bottom: 65px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     font-size: 30px;
-    border-bottom: 4px;
-    border-bottom-color: #ff00ef;
-    border-bottom-style: solid;
     display: flex;
     align-items: center;
+   
 }
 
 .menu-item2 {
     writing-mode: vertical-rl;  
     box-sizing: border-box;
     width: 100%;
-    padding-top: 65px;
-    padding-bottom: 65px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     font-size: 30px;
     display: flex;
     align-items: center;
-     border-bottom: 4px;
-    border-bottom-color: #ff00ef;
-    border-bottom-style: solid;
+    
+    
 }
 
 .menu-class:link,
@@ -146,7 +155,7 @@ body {
   white-space: nowrap;
   overflow: hidden;
   box-sizing: border-box;
-  font-family: Cirka-Regular;
+  font-family: cirkaregular;
 }
 
 .marquee span {
@@ -186,9 +195,9 @@ body {
 }
 
 .col5 a {
-    font-family: Cirka-Regular;
+    font-family: cirkaregular;
     text-align: center;
-    color: #ACACAC;
+    color: #FFFFFF;
     font-size: 70px;
 }
 
@@ -208,19 +217,24 @@ body {
     
 #logo {
 
-    font-size: 48px;
+    font-size: 43px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+     padding-left: 0px;
       
 }
     
 .menu-item {
     font-size: 27px;
+     padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 .menu-item2 {
     font-size: 27px;
-    border-bottom: 4px;
-    border-bottom-color: #ff00ef;
-    border-bottom-style: solid;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    
     
 }
     
@@ -232,6 +246,6 @@ body {
     
 .col5 a {
     margin-right: 0%;
-    font-family: Cirka-Regular;
+    font-family: cirkaregular;
     text-align: center;
     font-size: 36px;
