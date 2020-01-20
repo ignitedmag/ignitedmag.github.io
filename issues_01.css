@@ -227,6 +227,7 @@ body {
     font-family: cirkalight;
     color: black;
     font-size: 35px;
+    margin-bottom: 40px;
 
 }
 
@@ -242,6 +243,59 @@ p1 {
    
 }
 
+.col9 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    height: 3px;
+    background-color: black;
+    margin-bottom: 40px;
+    
+}
+
+.col10 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    font-family: cirkabold;
+    color: black;
+    font-size: 49px;
+    margin-bottom: 40px;
+}
+
+.col11 {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    font-family: cirkalight;
+    color: black;
+    font-size: 30px;
+    line-height: 60px;
+    
+}
+
+p2 {
+    font-family: cirkalight;
+    text-align: justify-all;
+    color: black;
+    font-size: 35px;
+    align-self: left;
+    line-height: 90px;
+   
+}
+
+p3 {
+    font-family: cirkabold;
+    text-align: justify-all;
+    color: black;
+    font-size: 35px;
+    align-self: left;
+    line-height: 100px;
+   
+}
 
 
 
@@ -300,7 +354,7 @@ p1 {
     display: flex;
     flex-direction: column;
     align-content: center;
-    height: 400vh;
+    height: 600vh;
 }
 
  p1 {
@@ -324,10 +378,52 @@ p1 {
 .col8{
      height: auto;
     font-size: 21px;
+    margin-bottom: 30px;
 
 }
     
+.col9 {
 
+    margin-bottom: 30px;
     
+}
+    
+   .col10 {
+    font-family: cirkabold;  
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.col11 {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    font-family: cirkalight;
+    color: black;
+    font-size: 20px;
+    line-height: 40px;
+    
+}
+
+p2 {
+    font-family: cirkalight;
+    text-align: justify-all;
+    color: black;
+    font-size: 25px;
+    align-self: left;
+    line-height: 50px;
    
+}
+
+p3 {
+    font-family: cirkabold;
+    text-align: justify-all;
+    color: black;
+    font-size: 26px;
+    align-self: left;
+    line-height: 70px;
+   
+}
+
 
